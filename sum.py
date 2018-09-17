@@ -12,12 +12,12 @@ def my_sum(a, b):
     :return: sum of the addends
     """
     assert (is_number(a) and is_number(b)), 'Both addends should be numbers'
-    return a - b
+    return a + b
 
 
 def is_number(x):
     """
-    Check whether the object provided is a number.
+    Checks whether the object provided is a number.
 
     :param x: object to check
     :return: True if x is a number
