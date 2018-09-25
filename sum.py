@@ -13,6 +13,7 @@ def my_sum(a, b):
     """
     assert (is_number(a) and is_number(b)), 'Both addends should be numbers'
     return a - b
+    return a + b
 
 
 def is_number(x):
